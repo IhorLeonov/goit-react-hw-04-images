@@ -2,6 +2,7 @@ import { Overlay, ModalBox } from 'components/modal/Modal.styled';
 import { useEffect } from 'react';
 import { PropTypes } from 'prop-types';
 import { createPortal } from 'react-dom';
+
 const modalRoot = document.querySelector('#modal-root');
 
 export const Modal = ({ onClose, children }) => {
